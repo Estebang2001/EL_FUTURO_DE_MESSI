@@ -1,0 +1,67 @@
+
+.fondo {
+    background: url(messi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tituloprincipal {
+ position: relative;
+ z-index: 1;
+ text-align: center;
+ font-family: 'Graduate';
+ font-size: 190%;
+ bottom: 00%;
+ color: white;
+}
+.divider {
+    flex: 0;
+    width: 200px;
+    background-color: solid transparent;
+}
+.container {
+    display: flex;
+    color: white;
+    background: none;
+}
+.left-section {
+    flex: 1;
+    border-right: 1px solid transparent;
+    border-style: none;
+    background: none;
+    font-family: 'Graduate';
+    font-size: 22px; 
+}
+.right-section {
+    flex: 1;
+    border-left: 1px solid transparent;
+    border-style: none;
+    font-family: 'Graduate';
+    font-size: 22px;
+    
+}
+#izq {
+    position: absolute;
+    bottom: 5%;
+    left: 7%;
+    text-decoration: underline solid white;
+    text-decoration-skip-ink: none;
+    text-underline-offset: 20px;
+}
+#der {
+    position: absolute;
+    bottom: 5%;
+    right: 9%;
+    text-decoration: underline solid white;
+    text-decoration-skip-ink: none;
+    text-underline-offset: 20px;;
+}
+#izq:hover {
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 1), 0 0 20px rgba(255, 105, 180, 1);
+}
+
+#der:hover {
+    text-shadow: 5px 5px 10px rgba(0, 0, 255, 1), 0 0 20px rgba(255, 0, 0, 1);
+}
+a {
+    color: inherit;
+}

@@ -1,0 +1,34 @@
+.fondo {
+    background: url(https://p4.wallpaperbetter.com/wallpaper/809/621/117/lionel-messi-wallpaper-preview.jpg);
+    background-size: cover;
+}
+.container {
+    display: flex;
+}
+.left-section {
+    flex: 1;
+    
+}
+
+.right-section {
+    flex: 1;
+
+}
+.right2-section {
+    flex: 1;
+ }    
+p {
+    text-align: justify;
+    font-family: 'Graduate';
+    color: white;
+    font-size: 150%;
+    margin-top: 20%;
+
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Graduate';
+    margin-top: 30%;
+
+}

@@ -1,0 +1,43 @@
+.fondo {
+    background: url(intermessi.png);
+    background-size: cover;
+}
+#titulointer {
+    position: absolute;
+    color: black;
+    font-family: 'Graduate';
+    bottom: 2%;
+    left: 38%;
+    right: 30%;
+    z-index: 1;
+    font-size: 250%;
+}
+.container {
+    display: flex;
+}
+.left-section {
+    flex: 1;
+    color: white;
+
+}
+.left-section p {
+    position: absolute;
+    left: 5%;
+    right: 70%;
+    text-align: justify;
+    font-size: 120%;
+    font-family: 'Graduate'
+
+}
+.right-section {
+    flex: 1;
+    color: white;
+
+}
+.right-section p {
+    position: absolute;
+    left: 70%;
+    right: 5%;
+    font-size: 120%;
+    font-family: 'Graduate'
+}
